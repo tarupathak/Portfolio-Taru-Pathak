@@ -1,5 +1,12 @@
 import Isotope from "isotope-layout";
 import Link from "next/link";
+import funds from "../../public/assets/Funds.png";
+import blog from "../../public/assets/BlogSpeher.png";
+import ccc from "../../public/assets/CCC.png";
+import deafolio from "../../public/assets/Deafolio.png";
+import shopify from "../../public/assets/Shopify.png";
+import versatile from "../../public/assets/versatile.jpg";
+import Image from "next/image";
 import { Fragment, useEffect, useRef, useState } from "react";
 const ProjectIsotop = () => {
   // Isotope
@@ -37,224 +44,184 @@ const ProjectIsotop = () => {
   return (
     <Fragment>
       <div className="works-box">
-        <div
-          className="filter-links"
-        >
-          <a
-            className={`c-pointer ${activeBtn("*")}`}
-            onClick={handleFilterKeyChange("*")}
-            data-href=".works-col"
-          >
-            All
-          </a>
-          <a
-            className={`c-pointer ${activeBtn("sorting-ui-ux-design")}`}
-            onClick={handleFilterKeyChange("sorting-ui-ux-design")}
-            data-href=".sorting-ui-ux-design"
-          >
-            UI UX Design
-          </a>
-          <a
-            className={`c-pointer ${activeBtn("sorting-photo")}`}
-            onClick={handleFilterKeyChange("sorting-photo")}
-            data-href=".sorting-photo"
-          >
-            Frontend Web Development
-          </a>
-          <a
-            className={`c-pointer ${activeBtn("sorting-development")}`}
-            onClick={handleFilterKeyChange("sorting-development")}
-            data-href=".sorting-development"
-          >
-            Backend Development
-          </a>
-          <a
-            className={`c-pointer ${activeBtn("sorting-branding")}`}
-            onClick={handleFilterKeyChange("sorting-branding")}
-            data-href=".sorting-branding"
-          >
-            Application Development
-          </a>
-        </div>
         <div className="works-items works-list-items row">
           <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-photo ">
             <div className="works-item">
-              <Link href="/work-single">
-                <a>
-                  <span
-                    className="image"
-                  >
-                    <span className="img">
-                      <img src="assets/images/work4.jpg" alt="Zorro" />
-                      <span className="overlay" />
-                    </span>
+              <a>
+                <span className="image">
+                  <span className="img">
+                    <Image src={funds} alt="funds" />
+                    <span className="overlay" />
                   </span>
-                  <span className="desc">
-                    <span
-                      className="name"
-                    >
-                      Zorro
-                    </span>
-                    <span
-                      className="category"
-                    >
-                      Branding
-                      <br />
-                      Photography
-                    </span>
+                </span>
+                <span className="desc">
+                  <span className="name">Funds4Good</span>
+                  <span className="category">
+                    I developed a frontend application for offering low/zero
+                    interest loans and charity donations. Users can bookmark
+                    loan requests, view applications, and apply by providing
+                    reasons. The platform also validates recipients through
+                    identity proofs to ensure authenticity.
                   </span>
-                </a>
-              </Link>
+
+                  <span>
+                    <a href="https://github.com/Tech-Shreyansh/Funds4Good-WebApp-CodeX24">
+                      {" "}
+                      Github Link
+                    </a>
+                  </span>
+                </span>
+              </a>
             </div>
           </div>
           <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-ui-ux-design ">
             <div className="works-item">
-              <Link href="/work-single">
-                <a>
-                  <span
-                    className="image"
-                  >
-                    <span className="img">
-                      <img src="assets/images/work2.jpg" alt="Gooir" />
-                      <span className="overlay" />
-                    </span>
+              <a>
+                <span className="image">
+                  <span className="img">
+                    <Image src={blog} alt="blog" />
+                    <span className="overlay" />
                   </span>
-                  <span className="desc">
-                    <span
-                      className="name"
-                    >
-                      Gooir
-                    </span>
-                    <span
-                      className="category"
-                    >
-                      Branding
-                      <br />
-                      UI UX Design
-                    </span>
+                </span>
+                <span className="desc">
+                  <span className="name">BlogSpeher</span>
+                  <span className="category">
+                    Created a full-stack blog website enabling users to read,
+                    create, and edit blogs with secure JWT token-based
+                    authentication. Integrated React Router for smooth
+                    navigation and offered RESTful APIs for efficient data
+                    management. The platform ensures a seamless blogging
+                    experience with robust security measures. Explore the
+                    project on GitHub for further details.
                   </span>
-                </a>
-              </Link>
+
+                  <span>
+                    <a href="https://github.com/tarupathak/BlogSphere">
+                      Github Link
+                    </a>
+                  </span>
+                </span>
+              </a>
             </div>
           </div>
+
           <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-development sorting-ui-ux-design ">
             <div className="works-item">
-              <Link href="/work-single">
-                <a>
-                  <span
-                    className="image"
-                  >
-                    <span className="img">
-                      <img src="assets/images/work7.jpg" alt="Explore" />
-                      <span className="overlay" />
-                    </span>
+              <a>
+                <span className="image">
+                  <span className="img">
+                    <Image src={shopify} alt="shopify" />
+                    <span className="overlay" />
                   </span>
-                  <span className="desc">
-                    <span
-                      className="name"
-                    >
-                      Explore
-                    </span>
-                    <span
-                      className="category"
-                    >
-                      Development
-                      <br />
-                      UI UX Design
-                    </span>
+                </span>
+                <span className="desc">
+                  <span className="name">Shopify</span>
+                  <span className="category">
+                    Built a full-stack shopping website integrating CRUD
+                    features, React Router DOM, JWT authentication, RESTful
+                    APIs, and MongoDB for data storage. The platform ensures
+                    smooth navigation, secure user authentication, and efficient
+                    data management. Explore the project on GitHub for further
+                    insights.
                   </span>
-                </a>
-              </Link>
+
+                  <span>
+                    <a href="https://github.com/tarupathak/Shopify-Frontend">
+                      Github Frontend Link
+                    </a>
+                  </span>
+                  <span>
+                    <a href="https://github.com/tarupathak/Shopify-Backend">
+                      Github Backend Link
+                    </a>
+                  </span>
+                </span>
+              </a>
             </div>
           </div>
           <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-photo ">
             <div className="works-item">
-              <Link href="/work-single">
-                <a>
-                  <span
-                    className="image"
-                  >
-                    <span className="img">
-                      <img src="assets/images/work1.jpg" alt="Mozar" />
-                      <span className="overlay" />
-                    </span>
+              <a>
+                <span className="image">
+                  <span className="img">
+                    <Image src={ccc} alt="ccc" />
+                    <span className="overlay" />
                   </span>
-                  <span className="desc">
-                    <span
-                      className="name"
-                    >
-                      Mozar
-                    </span>
-                    <span
-                      className="category"
-                    >
-                      Branding
-                      <br />
-                      Photography
-                    </span>
+                </span>
+                <span className="desc">
+                  <span className="name">Cloud Computing Cell Website</span>
+                  <span className="category">
+                    The website exhibits comprehensive event listings with a
+                    registration portal, employing React JS, Rsuite, and
+                    Bootstrap. Additionally, it highlights team member profiles,
+                    focusing on their technical prowess. This platform offers a
+                    seamless experience for event exploration and registration
+                    while emphasizing the expertise of its team members.
                   </span>
-                </a>
-              </Link>
+                  <span>
+                    <a href="https://github.com/tarupathak/CCC-Website">
+                      Github Link
+                    </a>
+                  </span>
+                </span>
+              </a>
+            </div>
+          </div>
+          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-ui-ux-design ">
+            <div className="works-item">
+              <a>
+                <span className="image">
+                  <span className="img">
+                    <Image src={deafolio} alt="deafolio" />
+                    <span className="overlay" />
+                  </span>
+                </span>
+                <span className="desc">
+                  <span className="name">Deafolio</span>
+                  <span className="category">
+                    Created the frontend of a website where deaf individuals can
+                    find jobs and explore various career opportunities. Built
+                    using ReactJS and CSS, and integrated the backend using
+                    Axios for seamless data communication. The site ensures
+                    accessibility and a user-friendly experience for the deaf
+                    community.
+                  </span>
+
+                  <span>
+                    <a href="https://github.com/tarupathak/Deafolio">
+                      Github Link
+                    </a>
+                  </span>
+                </span>
+              </a>
             </div>
           </div>
           <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-photo ">
             <div className="works-item">
-              <Link href="/work-single">
-                <a>
-                  <span
-                    className="image"
-                  >
-                    <span className="img">
-                      <img src="assets/images/single8.jpg" alt="Stay Fit" />
-                      <span className="overlay" />
-                    </span>
+              <a>
+                <span className="image">
+                  <span className="img">
+                    <Image src={versatile} alt="versatile" />
+                    <span className="overlay" />
                   </span>
-                  <span className="desc">
-                    <span
-                      className="name"
-                    >
-                      Stay Fit
-                    </span>
-                    <span
-                      className="category"
-                    >
-                      Development
-                      <br />
-                      UI UX Design
-                    </span>
+                </span>
+                <span className="desc">
+                  <span className="name">Versatile</span>
+                  <span className="category">
+                    Developed the frontend of an e-commerce website for tile
+                    purchases using ReactJS, Rsuite, and CSS. Implemented
+                    dynamic and responsive design features for an optimal user
+                    experience. Integrated the backend using Axios for efficient
+                    data fetching, ensuring seamless communication between the
+                    client-side interface and the server.
                   </span>
-                </a>
-              </Link>
-            </div>
-          </div>
-          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-photo ">
-            <div className="works-item">
-              <Link href="/work-single">
-                <a>
-                  <span
-                    className="image"
-                  >
-                    <span className="img">
-                      <img src="assets/images/single6.jpg" alt="Kana" />
-                      <span className="overlay" />
-                    </span>
+                  <span>
+                    <a href="https://github.com/tarupathak/Versatile.git">
+                      Github Link
+                    </a>
                   </span>
-                  <span className="desc">
-                    <span
-                      className="name"
-                    >
-                      Kana
-                    </span>
-                    <span
-                      className="category"
-                    >
-                      Development
-                      <br />
-                      Photography
-                    </span>
-                  </span>
-                </a>
-              </Link>
+                </span>
+              </a>
             </div>
           </div>
         </div>
