@@ -158,7 +158,7 @@ const Index = () => {
               <div className="profile-box">
                 <div className="text">
                   <p>
-                    Hi there! I'm Taru Pathak, a passionate third-year BTech
+                    Hi there! I'm Taru Pathak, a passionate final-year BTech
                     student with a strong background in Full Stack Development.
                   </p>
                   <p>
@@ -363,6 +363,26 @@ const Index = () => {
                   </div>
                 </div>
                 <div className="skills-item">
+                  <div className="name">Context API</div>
+                  <div className="dots dots-90">
+                    <div className="dots-row">
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                    </div>
+                  </div>
+                  <div className="value">
+                    <span className="num">90%</span>
+                  </div>
+                </div>
+                <div className="skills-item">
                   <div className="name">Wordpress</div>
                   <div className="dots dots-80">
                     <div className="dots-row">
@@ -420,6 +440,26 @@ const Index = () => {
                   </div>
                   <div className="value">
                     <span className="num">95%</span>
+                  </div>
+                </div>
+                <div className="skills-item">
+                  <div className="name">Firebase</div>
+                  <div className="dots dots-80">
+                    <div className="dots-row">
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                    </div>
+                  </div>
+                  <div className="value">
+                    <span className="num">80%</span>
                   </div>
                 </div>
                 <div className="skills-item">
@@ -524,16 +564,31 @@ const Index = () => {
                 <div className="history-items">
                   <div className="p-title">EXPERIENCE</div>
                   <div className="history-item">
+                    <div className="date">May 2024 - August 2024 (Remote)</div>
+                    <div className="name">TailorTalk</div>
+                    <div className="subname">Web Developer</div>
+                    <div className="text">
+                      <p>
+                        • Developed a dashboard with Next.js and Tailwind CSS
+                        for creating organizations and WhatsApp-interacting
+                        agent bots, integrating chat bots. Built the main
+                        website for Tailor Talk
+                      </p>
+                    </div>
+                  </div>
+                  <div className="history-item">
                     <div className="date">
-                      October 2023 - March 2023 (Remote)
+                      October 2023 - March 2024 (Remote)
                     </div>
                     <div className="name">Neolen Technologies.</div>
                     <div className="subname">Frontend Developer</div>
                     <div className="text">
                       <p>
-                        Elevated a sleek company website UI designed in Figma
-                        using Next.js, Tailwind CSS, Bootstrap, Rsuite, and
-                        Axios for seamless API integration.
+                        • Created an MVP dashboard where users can launch
+                        campaigns and ads similar to Meta campaigns using
+                        Next.js and Tailwind CSS, and designed the UI using
+                        Figma. Developed a second website for email warming
+                        using the Django MVT model.
                       </p>
                     </div>
                   </div>
@@ -543,22 +598,21 @@ const Index = () => {
                     <div className="subname">React Developer</div>
                     <div className="text">
                       <p>
-                        Crafted a responsive company website UI with ReactJS,
-                        integrating backend APIs via Axios, and harmonizing
-                        design coherence using Rsuite, Bootstrap, and MUI,
-                        collaboratively implemented through Figma.
+                        • Developed an e-commerce website for Tiles using React
+                        JS and also created the main website for LocalVille with
+                        the same technology.
                       </p>
                     </div>
                   </div>
                   <div className="history-item">
-                    <div className="date">SRL Life</div>
-                    <div className="name">December 2022 - January 2023</div>
+                    <div className="date">December 2022 - January 2023</div>
+                    <div className="name">SRL Life</div>
                     <div className="subname">
                       Frontend Developer and UI/UX Designer
                     </div>
                     <div className="text">
                       <p>
-                        Developed the SRL Life website interface on WordPress
+                        • Developed the SRL Life website interface on WordPress
                         and Elementor, seamlessly integrating Figma, Canva, and
                         Adobe Photoshop for cohesive design and content
                         consistency, ensuring a unified and functional online
@@ -573,7 +627,7 @@ const Index = () => {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://drive.google.com/file/d/1gTCh3aEjjBMjMM1MS7vtOe_I1vdaumjj/view?usp=sharing"
+                href="https://drive.google.com/file/d/1S-3YAw0K-iCmdbMQZg9btSKgjZvbr8Gh/view?usp=drive_link"
                 className="btn"
               >
                 <span>Download CV</span>

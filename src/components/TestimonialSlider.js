@@ -193,43 +193,7 @@ const TestimonialSlider = () => {
               </div> */}
             </div>
           </SwiperSlide>
-          <SwiperSlide className="swiper-slide">
-            <div
-              className="testimonials-item"
-            >
-              <div className="text">
-                <div className="icon">
-                  <svg
-                    width={58}
-                    height={44}
-                    xmlns="http://www.w3.org/2000/svg"
-                    version="1.1"
-                    xmlnsXlink="http://www.w3.org/1999/xlink"
-                    viewBox="0 0 58 44"
-                  >
-                    <defs />
-                    <g>
-                      <g>
-                        <path
-                          d="M24.15697,5.25606c-5.87975,2.24304 -9.65698,8.89397 -9.65698,14.29844h9.62551v24.44363h-24.12552v-18.06641c0,-13.94272 9.05766,-23.39363 21.74995,-25.93231zM57.98788,5.25606c-5.87734,2.24304 -9.65458,8.89397 -9.65458,14.29844h9.6666v24.44363h-24.12552v-18.06641c0,-13.94272 9.01657,-23.39363 21.70887,-25.93231zM54.21305,2.82419c-11.10706,2.9459 -17.92202,11.65104 -17.92202,23.10753v15.62309h19.29222v-19.55605h-9.6666v-2.44427c0,-5.29194 3.09334,-12.05826 8.87878,-15.45906zM20.37974,2.82133v0l0.58239,1.27411c-5.78556,3.4008 -8.8789,10.16712 -8.8789,15.45906v2.44427v0h9.62563v0v19.55605v0h-19.29222v0v-15.62309c0,-11.45458 6.83189,-20.15972 17.9631,-23.11039"
-                          fill="#ffffff"
-                          fillOpacity={1}
-                        />
-                      </g>
-                    </g>
-                  </svg>
-                </div>
-               
-              </div>
-              <div className="image">
-                <img src="assets/certificates/five.png" alt="one" />
-              </div>
-              {/* <div className="info">
-                <h3 className="name">Jennifer Smith</h3>
-                <div className="author">CEO &amp; Founder</div>
-              </div> */}
-            </div>
-          </SwiperSlide>
+          
           <SwiperSlide className="swiper-slide">
             <div
               className="testimonials-item"
