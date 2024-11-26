@@ -6,6 +6,7 @@ import ccc from "../../public/assets/CCC.png";
 import deafolio from "../../public/assets/Deafolio.png";
 import shopify from "../../public/assets/Shopify.png";
 import versatile from "../../public/assets/versatile.jpg";
+import trendnest from "../../public/assets/TrendNest.png";
 import Image from "next/image";
 import { Fragment, useEffect, useRef, useState } from "react";
 const ProjectIsotop = () => {
@@ -45,6 +46,35 @@ const ProjectIsotop = () => {
     <Fragment>
       <div className="works-box">
         <div className="works-items works-list-items row">
+          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-ui-ux-design ">
+            <div className="works-item">
+              <a>
+                <span className="image">
+                  <span className="img">
+                    <Image src={trendnest} alt="blog" />
+                    <span className="overlay" />
+                  </span>
+                </span>
+                <span className="desc">
+                  <span className="name">TrendNest</span>
+                  <span className="category">
+                    Developed a full-stack shopping website using React.js,
+                    Express.js, and Redux, featuring CRUD functionality, RESTful
+                    APIs, and dedicated Admin and User panels. The platform
+                    integrates PayPal for secure payments, product ratings, and
+                    cart management. It also employs JWT authentication and
+                    MongoDB to efficiently handle over 1,000 items.
+                  </span>
+
+                  <span>
+                    <a href="https://github.com/tarupathak/TrendNest">
+                      Github Link
+                    </a>
+                  </span>
+                </span>
+              </a>
+            </div>
+          </div>
           <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-photo ">
             <div className="works-item">
               <a>
@@ -54,6 +84,7 @@ const ProjectIsotop = () => {
                     <span className="overlay" />
                   </span>
                 </span>
+
                 <span className="desc">
                   <span className="name">Funds4Good</span>
                   <span className="category">
@@ -84,7 +115,7 @@ const ProjectIsotop = () => {
                   </span>
                 </span>
                 <span className="desc">
-                  <span className="name">BlogSpeher</span>
+                  <span className="name">BlogSphere</span>
                   <span className="category">
                     Created a full-stack blog website enabling users to read,
                     create, and edit blogs with secure JWT token-based
