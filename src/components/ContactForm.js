@@ -45,14 +45,7 @@ const ContactForm = () => {
           <div className="col-xs-12 col-sm-12 col-md-3 col-lg-3 align-right">
             {/* Section numbers */}
             <div className="numbers-items contacts-items">
-              <div
-                className="numbers-item"
-              >
-                <div className="icon">
-                  <i aria-hidden="true" className="fas fa-phone" />
-                </div>
-                <div className="num">+91 7307701994</div>
-              </div>
+              
               <div
                 className="numbers-item"
               >

@@ -28,7 +28,7 @@ const Footer = () => {
               <div
                 className="copyright-text"
               >
-                © 2024 Taru Pathak. All Rights Reserved
+                © 2025 Taru Pathak. All Rights Reserved
               </div>
             </div>
             <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4 align-right">

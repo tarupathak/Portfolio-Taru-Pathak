@@ -564,6 +564,19 @@ const Index = () => {
                 <div className="history-items">
                   <div className="p-title">EXPERIENCE</div>
                   <div className="history-item">
+                    <div className="date">January 2025 - Ongoing (Remote)</div>
+                    <div className="name">Rivera Money</div>
+                    <div className="subname">Software Developer</div>
+                    <div className="text">
+                      {/* <p>
+                        • Developed a dashboard with Next.js and Tailwind CSS
+                        for creating organizations and WhatsApp-interacting
+                        agent bots, integrating chat bots. Built the main
+                        website for Tailor Talk
+                      </p> */}
+                    </div>
+                  </div>
+                  <div className="history-item">
                     <div className="date">May 2024 - August 2024 (Remote)</div>
                     <div className="name">TailorTalk</div>
                     <div className="subname">Web Developer</div>
