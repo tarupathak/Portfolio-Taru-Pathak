@@ -303,7 +303,7 @@ const Index = () => {
                   </div>
                 </div>
                 <div className="skills-item">
-                  <div className="name">Javascript</div>
+                  <div className="name">JavaScript</div>
                   <div className="dots dots-90">
                     <div className="dots-row">
                       <div className="dot" />
@@ -322,6 +322,27 @@ const Index = () => {
                     <span className="num">90%</span>
                   </div>
                 </div>
+                <div className="skills-item">
+                  <div className="name">TypeScript</div>
+                  <div className="dots dots-90">
+                    <div className="dots-row">
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                    </div>
+                  </div>
+                  <div className="value">
+                    <span className="num">90%</span>
+                  </div>
+                </div>
+
                 <div className="skills-item">
                   <div className="name">Git/Github</div>
                   <div className="dots dots-95">
@@ -443,7 +464,127 @@ const Index = () => {
                   </div>
                 </div>
                 <div className="skills-item">
+                  <div className="name">SQL</div>
+                  <div className="dots dots-95">
+                    <div className="dots-row">
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                    </div>
+                  </div>
+                  <div className="value">
+                    <span className="num">95%</span>
+                  </div>
+                </div>
+                <div className="skills-item">
+                  <div className="name">Operating System</div>
+                  <div className="dots dots-95">
+                    <div className="dots-row">
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                    </div>
+                  </div>
+                  <div className="value">
+                    <span className="num">95%</span>
+                  </div>
+                </div>
+                <div className="skills-item">
+                  <div className="name">Computer Networks</div>
+                  <div className="dots dots-95">
+                    <div className="dots-row">
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                    </div>
+                  </div>
+                  <div className="value">
+                    <span className="num">95%</span>
+                  </div>
+                </div>
+                <div className="skills-item">
+                  <div className="name">DBMS</div>
+                  <div className="dots dots-95">
+                    <div className="dots-row">
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                    </div>
+                  </div>
+                  <div className="value">
+                    <span className="num">95%</span>
+                  </div>
+                </div>
+                <div className="skills-item">
+                  <div className="name">Data Structure and Algorithm</div>
+                  <div className="dots dots-95">
+                    <div className="dots-row">
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                    </div>
+                  </div>
+                  <div className="value">
+                    <span className="num">95%</span>
+                  </div>
+                </div>
+                <div className="skills-item">
                   <div className="name">Firebase</div>
+                  <div className="dots dots-80">
+                    <div className="dots-row">
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                      <div className="dot" />
+                    </div>
+                  </div>
+                  <div className="value">
+                    <span className="num">80%</span>
+                  </div>
+                </div>
+                <div className="skills-item">
+                  <div className="name">GCP</div>
                   <div className="dots dots-80">
                     <div className="dots-row">
                       <div className="dot" />
@@ -564,16 +705,19 @@ const Index = () => {
                 <div className="history-items">
                   <div className="p-title">EXPERIENCE</div>
                   <div className="history-item">
-                    <div className="date">January 2025 - Ongoing (Remote)</div>
+                    <div className="date">January 2025 - March 2025 (Remote)</div>
                     <div className="name">Rivera Money</div>
                     <div className="subname">Software Developer</div>
                     <div className="text">
-                      {/* <p>
-                        • Developed a dashboard with Next.js and Tailwind CSS
-                        for creating organizations and WhatsApp-interacting
-                        agent bots, integrating chat bots. Built the main
-                        website for Tailor Talk
-                      </p> */}
+                      <p>
+                        • Developed a blockchain-based project using Next.js,
+                        TypeScript, and Supra blockchain, enabling minting of
+                        50,000+ tokens, debt repayment, and real-time smart
+                        contract interactions for 1,000+ users, while building a
+                        responsive frontend with MUI and Tailwind CSS to manage
+                        10,000+ monthly transactions across optimized mobile and
+                        desktop dashboards.
+                      </p>
                     </div>
                   </div>
                   <div className="history-item">
@@ -640,7 +784,7 @@ const Index = () => {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://drive.google.com/file/d/1S-3YAw0K-iCmdbMQZg9btSKgjZvbr8Gh/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1n6f3YKhLjRKGFJLRjaQuqrzhlCebq2Gs/view?usp=sharing"
                 className="btn"
               >
                 <span>Download CV</span>
