@@ -705,7 +705,7 @@ const Index = () => {
                 <div className="history-items">
                   <div className="p-title">EXPERIENCE</div>
                   <div className="history-item">
-                    <div className="date">January 2025 - March 2025 (Remote)</div>
+                    <div className="date">January 2025 - Ongoing</div>
                     <div className="name">Rivera Money</div>
                     <div className="subname">Software Developer</div>
                     <div className="text">
@@ -784,7 +784,7 @@ const Index = () => {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://drive.google.com/file/d/1n6f3YKhLjRKGFJLRjaQuqrzhlCebq2Gs/view?usp=sharing"
+                href="https://drive.google.com/file/d/19D5MtevM44MWEMW05rr0ofzf7POnl0YC/view?usp=sharing"
                 className="btn"
               >
                 <span>Download CV</span>
