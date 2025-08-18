@@ -60,7 +60,7 @@ const ContactForm = () => {
                 <div className="icon">
                   <i aria-hidden="true" className="fas fa-location-arrow" />
                 </div>
-                <div className="num">Ghaziabad, Uttar Pradesh, India</div>
+                <div className="num">Noida, Uttar Pradesh, India</div>
               </div>
             </div>
           </div>

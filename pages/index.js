@@ -90,7 +90,7 @@ const Index = () => {
             <div className="content">
               <div className="titles">
                 <div className="subtitle">
-                  FULLSTACK DEVELOPER AND UI/UX DESIGNER
+                  SOFTWARE DEVELOPER
                 </div>
                 <h2 className="title">Taru Pathak</h2>
               </div>
@@ -98,7 +98,7 @@ const Index = () => {
                 <p>
                   I am a developer proficient in both front-end and back-end
                   technologies, as well as a UI/UX designer, residing in the
-                  Delhi NCR region.
+                  Noida.
                 </p>
               </div>
             </div>
@@ -135,7 +135,7 @@ const Index = () => {
                   <div className="icon">
                     <i aria-hidden="true" className="far fa-check-circle" />
                   </div>
-                  <div className="num">6</div>
+                  <div className="num">12+</div>
                   <div className="title">
                     Completed <br />
                     Project
@@ -145,7 +145,7 @@ const Index = () => {
                   <div className="icon">
                     <i aria-hidden="true" className="far fa-smile-beam" />
                   </div>
-                  <div className="num">4</div>
+                  <div className="num">7</div>
                   <div className="title">
                     Happy <br />
                     Clients
@@ -158,8 +158,8 @@ const Index = () => {
               <div className="profile-box">
                 <div className="text">
                   <p>
-                    Hi there! I'm Taru Pathak, a passionate final-year BTech
-                    student with a strong background in Full Stack Development.
+                    Hi there! I'm Taru Pathak, a passionate BTech
+                    graduate with a strong background in Full Stack Development.
                   </p>
                   <p>
                     As a Full Stack Developer, I specialize in crafting dynamic
@@ -202,7 +202,7 @@ const Index = () => {
               {/* Description */}
               <div className="text">
                 <p>
-                  Hello! I'm Taru Pathak, currently pursuing a degree in
+                  Hello! I'm Taru Pathak, completed a degree in
                   Electronics and Communication Engineering at Ajay Kumar Garg
                   Engineering College, where I maintain a solid GPA of 7.5. My
                   passion lies in the dynamic field of technology, with a
@@ -705,9 +705,25 @@ const Index = () => {
                 <div className="history-items">
                   <div className="p-title">EXPERIENCE</div>
                   <div className="history-item">
-                    <div className="date">January 2025 - Ongoing</div>
-                    <div className="name">Rivera Money</div>
+                    <div className="date">August 2025 - Ongoing (On-site)</div>
+                    <div className="name">Weya AI</div>
                     <div className="subname">Software Developer</div>
+                    <div className="text">
+                      <p>
+                        • Built the frontend of an AI chatbot platform, enabling
+                        automated interactions across WhatsApp, email, and call
+                        centers. Implemented real-time features and API
+                        integrations to deliver a scalable, intuitive, and
+                        user-friendly chatbot management system.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="history-item">
+                    <div className="date">
+                      January 2025 - August 2025 (Remote)
+                    </div>
+                    <div className="name">Rivera Money</div>
+                    <div className="subname">Fullstack Developer Intern</div>
                     <div className="text">
                       <p>
                         • Developed a blockchain-based project using Next.js,
@@ -723,7 +739,7 @@ const Index = () => {
                   <div className="history-item">
                     <div className="date">May 2024 - August 2024 (Remote)</div>
                     <div className="name">TailorTalk</div>
-                    <div className="subname">Web Developer</div>
+                    <div className="subname">Web Developer Intern</div>
                     <div className="text">
                       <p>
                         • Developed a dashboard with Next.js and Tailwind CSS
@@ -738,7 +754,7 @@ const Index = () => {
                       October 2023 - March 2024 (Remote)
                     </div>
                     <div className="name">Neolen Technologies.</div>
-                    <div className="subname">Frontend Developer</div>
+                    <div className="subname">Frontend Developer Intern</div>
                     <div className="text">
                       <p>
                         • Created an MVP dashboard where users can launch
@@ -750,9 +766,9 @@ const Index = () => {
                     </div>
                   </div>
                   <div className="history-item">
-                    <div className="date">May 2023 - June 2023</div>
+                    <div className="date">May 2023 - June 2023 (Remote)</div>
                     <div className="name">LocalVille</div>
-                    <div className="subname">React Developer</div>
+                    <div className="subname">React Developer Intern</div>
                     <div className="text">
                       <p>
                         • Developed an e-commerce website for Tiles using React
@@ -762,10 +778,12 @@ const Index = () => {
                     </div>
                   </div>
                   <div className="history-item">
-                    <div className="date">December 2022 - January 2023</div>
+                    <div className="date">
+                      December 2022 - January 2023 (Remote)
+                    </div>
                     <div className="name">SRL Life</div>
                     <div className="subname">
-                      Frontend Developer and UI/UX Designer
+                      Frontend Developer and UI/UX Designer Intern
                     </div>
                     <div className="text">
                       <p>
@@ -784,7 +802,7 @@ const Index = () => {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://drive.google.com/file/d/19D5MtevM44MWEMW05rr0ofzf7POnl0YC/view?usp=sharing"
+                href="https://drive.google.com/file/d/1fw2OsTZWp1Xh1oKHe_z2OMGbyrLpoJVP/view?usp=sharing"
                 className="btn"
               >
                 <span>Download CV</span>
