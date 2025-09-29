@@ -704,26 +704,13 @@ const Index = () => {
               <div className="history-right">
                 <div className="history-items">
                   <div className="p-title">EXPERIENCE</div>
-                  <div className="history-item">
-                    <div className="date">August 2025 - Ongoing (On-site)</div>
-                    <div className="name">Weya AI</div>
-                    <div className="subname">Software Developer</div>
-                    <div className="text">
-                      <p>
-                        • Built the frontend of an AI chatbot platform, enabling
-                        automated interactions across WhatsApp, email, and call
-                        centers. Implemented real-time features and API
-                        integrations to deliver a scalable, intuitive, and
-                        user-friendly chatbot management system.
-                      </p>
-                    </div>
-                  </div>
+                  
                   <div className="history-item">
                     <div className="date">
-                      January 2025 - August 2025 (Remote)
+                      January 2025 - Ongoing (Remote)
                     </div>
                     <div className="name">Rivera Money</div>
-                    <div className="subname">Fullstack Developer Intern</div>
+                    <div className="subname">Fullstack Developer</div>
                     <div className="text">
                       <p>
                         • Developed a blockchain-based project using Next.js,
@@ -802,7 +789,7 @@ const Index = () => {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://drive.google.com/file/d/1fw2OsTZWp1Xh1oKHe_z2OMGbyrLpoJVP/view?usp=sharing"
+                href="https://drive.google.com/file/d/1maGtXMq2273lmyuRQKhAaURfGnGr1XbO/view?usp=sharing"
                 className="btn"
               >
                 <span>Download CV</span>
