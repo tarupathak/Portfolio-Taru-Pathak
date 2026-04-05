@@ -7,6 +7,8 @@ import Layout from "../src/layout/Layout";
 const ProjectIsotop = dynamic(() => import("../src/components/ProjectIsotop"), {
   ssr: false,
 });
+
+
 const Index = () => {
   return (
     <Layout>
@@ -90,15 +92,13 @@ const Index = () => {
             <div className="content">
               <div className="titles">
                 <div className="subtitle">
-                  SOFTWARE DEVELOPER
+                  SOFTWARE ENGINEER
                 </div>
                 <h2 className="title">Taru Pathak</h2>
               </div>
               <div className="description">
                 <p>
-                  I am a developer proficient in both front-end and back-end
-                  technologies, as well as a UI/UX designer, residing in the
-                  Noida.
+                  I am a Software Engineer proficient in data engineering, full-stack development, and cloud technologies, with experience in building scalable data pipelines, web applications, and analytics solutions.
                 </p>
               </div>
             </div>
@@ -158,21 +158,12 @@ const Index = () => {
               <div className="profile-box">
                 <div className="text">
                   <p>
-                    Hi there! I'm Taru Pathak, a passionate BTech
-                    graduate with a strong background in Full Stack Development.
+                    Hi there! I'm Taru Pathak, a passionate BTech graduate and Software Engineer with a strong background in Full Stack Development and Data Engineering.
                   </p>
                   <p>
-                    As a Full Stack Developer, I specialize in crafting dynamic
-                    and user-friendly web and mobile applications. My expertise
-                    lies in building sleek and responsive front-end experiences
-                    using React.js and React Native.On the back-end, I harness
-                    the power of Node.js and Express.js to create robust and
-                    scalable server-side solutions, ensuring seamless
-                    integration between the front and back ends of my projects.
-                    I'm currently on the lookout for exciting opportunities in
-                    the field of front-end development. If you're seeking a
-                    developer who can transform your ideas into engaging and
-                    interactive user interfaces, feel free to connect with me!
+                    As a developer, I specialize in building scalable web applications and data-driven solutions. I enjoy creating clean and responsive front-end experiences using React.js and Next.js, while leveraging Node.js and Express.js on the back end to develop robust and efficient systems. I also have hands-on experience working with large datasets, ETL pipelines, and cloud technologies to deliver impactful analytics solutions.
+
+I’m always excited to work on innovative projects and explore new technologies. If you're looking for someone who can turn ideas into scalable and efficient applications, feel free to connect with me!
                   </p>
 
                   <a href="#contact-section" className="btn">
@@ -202,41 +193,9 @@ const Index = () => {
               {/* Description */}
               <div className="text">
                 <p>
-                  Hello! I'm Taru Pathak, completed a degree in
-                  Electronics and Communication Engineering at Ajay Kumar Garg
-                  Engineering College, where I maintain a solid GPA of 7.5. My
-                  passion lies in the dynamic field of technology, with a
-                  particular focus on full-stack web development. My technical
-                  expertise spans modern technologies including ReactJS, NextJS,
-                  ExpressJS, Node.js, and MongoDB, which I utilize to create
-                  innovative and efficient web solutions. In my portfolio,
-                  notable projects such as a versatile blog website and Shopify,
-                  an e-commerce platform, demonstrate my ability to seamlessly
-                  integrate frontend and backend technologies. Additionally, my
-                  dedication to community engagement is reflected in my
-                  contributions to the Cloud Computing Cell website at my
-                  college, where I strive to align technology with societal
-                  needs. My involvement in impactful hackathons underscores my
-                  belief in the transformative power of technology for social
-                  good. Projects like Funds4Good, which facilitates global
-                  financial assistance, and Deafolio, which provides career
-                  opportunities for the hearing impaired, exemplify this
-                  commitment. My professional journey has been enriched through
-                  a series of internships that have honed my skills and
-                  versatility. Starting as a UI/UX designer and WordPress
-                  developer at SRL Life Company, I progressed to roles
-                  emphasizing React development at Localville and frontend
-                  development at Srchout Software and Neolen Technologies. These
-                  experiences have deepened my understanding of user-centric
-                  design principles and equipped me with the agility to adapt to
-                  various tech stacks and project requirements. As I stand on
-                  the cusp of my professional career, I am driven by an
-                  insatiable appetite for learning and growth. I seek an
-                  environment where I can showcase my existing skills while
-                  continuously expanding my knowledge. My ultimate goal is to
-                  become an indispensable asset to a company, contributing to
-                  its vision and objectives while perpetually pushing the
-                  boundaries of technological innovation.
+                 Hello! I'm Taru Pathak, a BTech graduate in Electronics and Communication Engineering with a strong interest in full-stack development and data engineering. I specialize in building scalable web applications using technologies like React.js, Next.js, Node.js, and MongoDB, along with working on data-driven solutions using Python and modern data tools.
+
+I’ve developed projects like blogging and e-commerce platforms, and gained hands-on experience through internships and my current role as a Software Engineer. I enjoy solving real-world problems, exploring new technologies, and building efficient, user-focused solutions.
                 </p>
               </div>
               {/* Skills */}
@@ -262,6 +221,93 @@ const Index = () => {
                     <span className="num">90%</span>
                   </div>
                 </div>
+                <div className="skills-item">
+  <div className="name">Java</div>
+  <div className="dots dots-85">
+    <div className="dots-row">
+      <div className="dot" /><div className="dot" /><div className="dot" /><div className="dot" /><div className="dot" />
+      <div className="dot" /><div className="dot" /><div className="dot" /><div className="dot" /><div className="dot" />
+    </div>
+  </div>
+  <div className="value"><span className="num">85%</span></div>
+</div>
+
+<div className="skills-item">
+  <div className="name">Python</div>
+  <div className="dots dots-85">
+    <div className="dots-row">
+      <div className="dot" /><div className="dot" /><div className="dot" /><div className="dot" /><div className="dot" />
+      <div className="dot" /><div className="dot" /><div className="dot" /><div className="dot" /><div className="dot" />
+    </div>
+  </div>
+  <div className="value"><span className="num">85%</span></div>
+</div>
+
+<div className="skills-item">
+  <div className="name">Machine Learning</div>
+  <div className="dots dots-75">
+    <div className="dots-row">
+      <div className="dot" /><div className="dot" /><div className="dot" /><div className="dot" /><div className="dot" />
+      <div className="dot" /><div className="dot" /><div className="dot" /><div className="dot" /><div className="dot" />
+    </div>
+  </div>
+  <div className="value"><span className="num">75%</span></div>
+</div>
+
+<div className="skills-item">
+  <div className="name">Unix</div>
+  <div className="dots dots-85">
+    <div className="dots-row">
+      <div className="dot" /><div className="dot" /><div className="dot" /><div className="dot" /><div className="dot" />
+      <div className="dot" /><div className="dot" /><div className="dot" /><div className="dot" /><div className="dot" />
+    </div>
+  </div>
+  <div className="value"><span className="num">85%</span></div>
+</div>
+
+<div className="skills-item">
+  <div className="name">AWS</div>
+  <div className="dots dots-80">
+    <div className="dots-row">
+      <div className="dot" /><div className="dot" /><div className="dot" /><div className="dot" /><div className="dot" />
+      <div className="dot" /><div className="dot" /><div className="dot" /><div className="dot" /><div className="dot" />
+    </div>
+  </div>
+  <div className="value"><span className="num">80%</span></div>
+</div>
+
+<div className="skills-item">
+  <div className="name">ETL (SSIS)</div>
+  <div className="dots dots-85">
+    <div className="dots-row">
+      <div className="dot" /><div className="dot" /><div className="dot" /><div className="dot" /><div className="dot" />
+      <div className="dot" /><div className="dot" /><div className="dot" /><div className="dot" /><div className="dot" />
+    </div>
+  </div>
+  <div className="value"><span className="num">85%</span></div>
+</div>
+
+<div className="skills-item">
+  <div className="name">OOPs</div>
+  <div className="dots dots-90">
+    <div className="dots-row">
+      <div className="dot" /><div className="dot" /><div className="dot" /><div className="dot" /><div className="dot" />
+      <div className="dot" /><div className="dot" /><div className="dot" /><div className="dot" /><div className="dot" />
+    </div>
+  </div>
+  <div className="value"><span className="num">90%</span></div>
+</div>
+
+<div className="skills-item">
+  <div className="name">Agile</div>
+  <div className="dots dots-85">
+    <div className="dots-row">
+      <div className="dot" /><div className="dot" /><div className="dot" /><div className="dot" /><div className="dot" />
+      <div className="dot" /><div className="dot" /><div className="dot" /><div className="dot" /><div className="dot" />
+    </div>
+  </div>
+  <div className="value"><span className="num">85%</span></div>
+</div>
                 <div className="skills-item">
                   <div className="name">NodeJS and ExpressJS</div>
                   <div className="dots dots-80">
@@ -704,12 +750,27 @@ const Index = () => {
               <div className="history-right">
                 <div className="history-items">
                   <div className="p-title">EXPERIENCE</div>
-                  
                   <div className="history-item">
                     <div className="date">
-                      January 2025 - Ongoing (Remote)
+                      November 2025 - Ongoing
                     </div>
-                    <div className="name">Rivera Money</div>
+                    <div className="name">Infosys</div>
+                    <div className="subname">Software Engineer</div>
+                    <div className="text">
+                      <p>
+                        • Designed and optimized SQL queries and implemented scalable ETL pipelines using SSIS to process and
+transform 100K+ records daily from 3+ enterprise data sources. Programmed data processing and analysis pipelines using Python libraries (NumPy, Pandas, Matplotlib,
+Scikit-Learn) to analyze 100K+ rows of data and support analytics and predictive modeling. Worked with Big Data technologies including Hadoop to perform distributed processing on 20GB+ datasets for
+efficient large-scale data management. Automated data workflows using Unix shell scripting, reducing manual processing time by 25%, and collaborated
+within Agile teams of 4+ members to improve pipeline reliability and scalability.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="history-item">
+                    <div className="date">
+                      January 2025 - November 2025
+                    </div>
+                    <div className="name">Fractit</div>
                     <div className="subname">Fullstack Developer</div>
                     <div className="text">
                       <p>
@@ -789,7 +850,7 @@ const Index = () => {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://drive.google.com/file/d/1maGtXMq2273lmyuRQKhAaURfGnGr1XbO/view?usp=sharing"
+                href="https://drive.google.com/file/d/1Sev_UnScyNK0r5iJ5y2FJ9ClhrvkMXnY/view?usp=sharing"
                 className="btn"
               >
                 <span>Download CV</span>
